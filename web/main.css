@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(200, 205, 50);
+    background-image:url(https://www.gettyimages.com/detail/photo/sliding-on-third-base-royalty-free-image/521975942);
+    background-repeat: repeat-x;
+}
+
+p{
+    background-color:whitesmoke ;
+}
+
+#first{
+    color: brown;
+}

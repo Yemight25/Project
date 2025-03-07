@@ -1,0 +1,42 @@
+body {
+
+    background-image: linear-gradient(to right, skyblue,yellow)
+}
+
+p {
+    background-color: rgb(43, 21, 145);
+    padding: 20px;
+    padding-left: 25px;
+    border: solid;
+    border-color: black;
+    border-radius: 25px;
+    border-width: 5px;
+    width: 75%;
+    width: Top right radius 100%;
+    color: beige;
+    text-align: justify;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: medium;
+
+
+}
+
+p:hover{
+    background-color: brown;
+}
+
+#y {
+    color: aqua;
+    
+}
+
+.y {
+    color: blue;
+    padding-left: 25px;
+}
+ul{
+    list-style:square;
+    color: blue;
+    border-color: aqua;
+}
