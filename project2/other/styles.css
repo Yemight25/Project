@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* line-height: 1.7; */
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+
+.content {
+  text-align: center;
+  
+  background:white;
+}
+
+.content h2 {
+  color: #252525;
+text-align: center;
+font-family: Avenir;
+font-size: 100px;
+font-style: normal;
+font-weight: 8000;
+line-height: 80px; 
+margin-bottom: 20px;
+}
+
+.content p {
+  color: rgba(37, 37, 37, 0.80);
+  text-align: center;
+  font-family: Avenir;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.explore-btn {
+  padding: 18px 48px;
+  background: black;
+  color: white;
+  border-radius:9px;
+  cursor: pointer;
+  gap: 19px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  /* padding:2%; */
+  background:white;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  border-radius:9px;
+}
+
+
+

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family:  'Lato ,Arial Narrow', Arial;
+    /* width: 85%;
+    margin:auto; */
+    /* background-color:rgb(37, 36, 36); */
+    font-style:normal;
+}
+
+.content{
+    background: url(/img/kids.jpg) no-repeat center center/cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  
+}
+
+.content h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 96px;
+
+}
+
+.content p{
+    font-size: 26px;
+    margin-bottom:15px;
+    font-weight: 400;
+}
+.text{
+    color: white;
+}
+.content button{
+    font-size:24px;
+    padding: 24px 48px;
+    border-radius: 36px;
+
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-weight: bold;
+
+}
+.item{
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    height: 0;
+}
+
+.mg img{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.mg{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+/* .mg_div{
+    position: absolute;
+    
+    left: 10%;
+    width:100%;
+    right: 55%;
+    bottom: 40%;
+} */
+/* .mg p{
+    color: white;
+
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: monospace;
+} */
+/* background: linear-gradient(0deg, rgba(37, 37, 37, 0.25) 0%, rgba(37, 37, 37, 0.25) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat; */
